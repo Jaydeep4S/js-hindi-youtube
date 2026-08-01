@@ -28,7 +28,7 @@
      null ==> standalone value
      undefined ==> when value is not defiened
      symbol ==> unique 
-     object
+     object 
   */
 
      console.log(typeof "jaydeep") // to know data type of value 
