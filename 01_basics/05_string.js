@@ -15,5 +15,9 @@ console.log(gameName.toUpperCase()); // for upper case
 console.log(gameName.charAt('2')); // at index which charrector
 console.log(gameName.indexOf('d')); //  charrector at which index
 
+const url = "hettps://jaydeep.com/jaydeep%20solanki"
+
+console.log((url.replace('%20','-')))
+
 
 
