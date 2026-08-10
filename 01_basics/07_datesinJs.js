@@ -1,4 +1,4 @@
-/*
+
 // Dates
 
 let myDate = new Date()
@@ -13,7 +13,7 @@ console.log(myDate.toString());  // get time in indian time AM/PM format
 console.log(myDate.toTimeString()); // get time in indian standard time
 console.log(myDate.toUTCString()); // get time in GMT format
 console.log(myDate.getFullYear()); // get year
-*/
+
 
 // let myCreatedDate = new Date (2024,0,19) // to get default date yyyy, Month starts with 0(January), date
 let myCreatedDate = new Date (2024,0,19 , 5 , 3) // as above with time
