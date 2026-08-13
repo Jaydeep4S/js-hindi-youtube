@@ -1,3 +1,4 @@
+/*
 // const thinderUser = new object() - singalton object
 
 const { object } = require("framer-motion/m")
@@ -40,3 +41,36 @@ console.log(Object.values(thinderUser));
 console.log(Object.entries(thinderUser));
 
 console.log(thinderUser.hasOwnProperty('IsLoggedIn')); // to check whether this property available or not
+
+// destructuring 
+
+*/
+const course = {
+    courseName : "js in hindi",
+    price : "999",
+    courseInstructor : "Hitesh"
+}
+
+console.log(course.courseInstructor); // this is also use
+
+const {courseInstructor : instructor} = course // second method
+// console.log(courseInstructor);
+console.log(instructor); // third method
+
+
+// API ================== kind of document which do work what we want to do
+
+
+// https://api.github.com/users/hiteshchoudhary
+
+// {
+//     "name":"jaydeep",
+//     "coursename":"js in hindi",
+//     "price":"free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
